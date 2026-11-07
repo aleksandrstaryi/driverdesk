@@ -173,6 +173,12 @@ The US counterpart of the tachograph (FMCSA rules for property-carrying drivers)
 
 **EN.** For a more realistic and more convenient game I recommend using DriverDesk together with the walking plugin **TM Real Walk** (by Izuan Bakar, TM Modding Studio; a third-party paid plugin, not related to DriverDesk). According to its author it includes **sleeping anywhere**: a rest mode in the cab (Shift+R by default) that lets you sleep in any parking spot. So you can take **breaks and weekly rests wherever it suits you**, while DriverDesk tracks the tachograph time and tells you when to stop and how much rest is still needed. The two plugins are independent and do not conflict: DriverDesk uses Shift+F9, F9, Ctrl+Shift+F9 and Shift+Alt+F9, TM Real Walk uses F8, F10 and their combinations.
 
+## Совет: мод на экономику со сроками доставки / Tip: an economy mod with longer delivery deadlines
+
+**RU.** С тахографом (перерывы 45 минут, отдых 11 часов, недельный отдых) в стандартные сроки доставки, которые задали разработчики игры, успевать трудно. Советую поставить мод на экономику, который **добавляет или увеличивает срок доставки** и делает его точнее, например мои моды: [экономика ETS2](https://steamcommunity.com/sharedfiles/filedetails/?id=3823572046) и [экономика ATS](https://steamcommunity.com/sharedfiles/filedetails/?id=3826293113) в Мастерской Steam. Можно взять и любой другой мод с похожим действием.
+
+**EN.** With a tachograph (45-minute breaks, 11 h daily rest, weekly rest) it is hard to make it to the unloading within the standard delivery deadlines set by the game developers. I recommend an economy mod that **adds or lengthens the delivery time** and makes it more accurate, for example my mods: [economy for ETS2](https://steamcommunity.com/sharedfiles/filedetails/?id=3823572046) and [economy for ATS](https://steamcommunity.com/sharedfiles/filedetails/?id=3826293113) on the Steam Workshop. Any other mod that does the same will work too.
+
 ## Установка / Installation
 
 1. Скопируйте `DriverDesk.dll` в папку / Copy `DriverDesk.dll` to:
