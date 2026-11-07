@@ -122,8 +122,6 @@ The US counterpart of the tachograph (FMCSA rules for property-carrying drivers)
 
 **Удаление / Uninstall:** удалите три файла `DriverDesk*` из `plugins`.
 
-**Обновление с тестовых сборок (проект раньше назывался SeasonCalendar) / Upgrading from the earlier test builds (the project was called SeasonCalendar):** удалите старый `SeasonCalendar.dll` из `plugins` и положите `DriverDesk.dll`. При первом запуске плагин сам перенесёт ваши данные и настройки из `SeasonCalendar*.ini` в `DriverDesk*.ini` (старая клавиша заменится на Shift+F9). / Delete the old `SeasonCalendar.dll` from `plugins` and copy `DriverDesk.dll`; on the first start the plugin moves your data and settings from `SeasonCalendar*.ini` to `DriverDesk*.ini` (the old open key is replaced with Shift+F9).
-
 ## Важно / Notes
 
 - Только одиночная игра, **не для TruckersMP**. / Single-player only, **not for TruckersMP**.
