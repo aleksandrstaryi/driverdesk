@@ -1,18 +1,33 @@
 # DriverDesk — рабочее место дальнобойщика для ETS2 и ATS
 # DriverDesk — a trucker's desk for ETS2 and ATS
 
+**Почувствуйте себя настоящим дальнобойщиком в Европе.** DriverDesk превращает рейс в настоящую рабочую неделю: вы следите за временем вождения и отдыха по правилам ЕС, планируете маршрут с учётом запретов движения грузовиков в праздники и выходные в разных странах и решаете, где встать на перерыв и недельный отдых. Каждая смена, каждый час отдыха и каждый рейс — на счету, как у настоящих водителей.
+
+**Feel like a real long-haul trucker in Europe.** DriverDesk turns every job into a real working week: you watch your driving and rest time under EU rules, plan your route around truck driving bans on holidays and weekends in different countries, and decide where to take your break and weekly rest. Every shift, every hour of rest and every trip counts, just like for real drivers.
+
 Плагин для одиночной игры **Euro Truck Simulator 2** и **American Truck Simulator** (Windows; Steam Deck — через Proton).
-По одной клавише (**Shift+F9**) поверх игры открывается окно: календарь с реальной датой и праздниками, тахограф (ETS2) или логбук HOS (ATS), запреты движения грузовиков в Европе, путевой журнал и ТО.
+По одной клавише (**Shift+F9**) поверх игры открывается окно: календарь с реальной датой и праздниками, тахограф (ETS2) или логбук HOS (ATS), запреты движения грузовиков в Европе, путевой журнал с прибылью и расходами и ТО. Клавиша **F9** — маленькое окно тахографа, **Shift+Alt+F9** — инструкция по правилам.
 
 A single-player plugin for **Euro Truck Simulator 2** and **American Truck Simulator** (Windows; Steam Deck through Proton).
-One key (**Shift+F9**) opens a window over the game: a calendar with a real date and holidays, a tachograph (ETS2) or an HOS logbook (ATS), truck driving bans in Europe, a trip log and maintenance.
+One key (**Shift+F9**) opens a window over the game: a calendar with a real date and holidays, a tachograph (ETS2) or an HOS logbook (ATS), truck driving bans in Europe, a trip log with profit and expenses, and maintenance. **F9** opens a small tachograph window, **Shift+Alt+F9** a rules guide.
 
-> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.2.
-> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.2.
+> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.3.
+> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.3.
 >
-> **Что нового в 1.2 / New in 1.2:** мини-окно тахографа на **F9** (до конца смены, до перерыва, до недельного отдыха); счётчик нарушений режима труда и отдыха за смену, неделю и месяц; ещё по одному сообщению за 15 минут до перерыва, конца смены, лимита 56 часов и недельного отдыха (ATS: перерыв, 11 ч, окно 14 ч, цикл 70 ч). / A small tachograph window on **F9** (time to shift end, to the break, to the weekly rest); a counter of driving and rest time violations per shift, week and month; one more on-screen warning 15 minutes before the break, the shift end, the 56 h limit and the weekly rest (ATS: break, 11 h, 14 h window, 70 h cycle).
+> **Что нового в 1.3 / New in 1.3:**
+> - **Мини-окно (F9)** теперь с четырьмя строками: до перерыва, вождение за смену, до конца смены, до недельного отдыха. Жёлтый запас («+1:00 — 10-й час», «+2:00 до 15 ч») показывается отдельно; сверху справа мелко — сколько отдыха уже набрано. / **Mini window (F9)** now has four rows: time to the break, driving this shift, shift end, weekly rest. The amber reserve ("+1:00 — 10th hour", "+2:00 to 15 h") is shown separately; the top right shows how much rest you have already taken.
+> - **10-й час и смены до 15 ч**: в большом окне счётчики «N из 2» (10-й час, по календарной неделе) и «N из 3» (смена до 15 ч). Правило ETS2: после смены дольше 13 ч отдых засчитывается как 9 ч. / **10th hour and shifts up to 15 h**: counters "N of 2" (10th hour, per calendar week) and "N of 3" (shift up to 15 h). ETS2 rule: after a shift longer than 13 h the rest counts as 9 h.
+> - **Блок отдыха** в большом окне: сколько нужно (11 или 9 ч), сколько осталось, счёт идёт и после 11 ч (ATS: перерыв 30 мин, 10 ч, 34 ч). / **Rest block** in the main window: how much is required (11 or 9 h), how much is left (ATS: 30-min break, 10 h, 34 h).
+> - **Журнал с финансами**: прибыль за месяц, расходы (топливо по ценам стран/штатов, штрафы, дороги и паромы), остаток и строка по каждому рейсу. Баланс банка и покупки игра плагину не отдаёт. / **Trip log with finances**: monthly profit, expenses (fuel at country/state prices, fines, tolls and ferries), the balance and a line for every trip. The bank balance and purchases are not available to plugins.
+> - **Синхронизация между устройствами** (ПК и Steam Deck): данные профиля дублируются в `DriverDesk_data.ini` в папке профиля игры (Steam Cloud) и сливаются при загрузке. Нужна версия 1.3 на каждом устройстве. / **Sync between devices** (PC and Steam Deck): profile data is also kept in `DriverDesk_data.ini` in the game profile folder (Steam Cloud) and merged on load. Version 1.3 is needed on every device.
+> - **Инструкция** на экране (**Shift+Alt+F9**): правила ЕС / HOS, цвета, клавиши. / An on-screen **guide** (**Shift+Alt+F9**): EU / HOS rules, colours, keys.
+> - **Новые сообщения** за 1 час до конца вождения за смену и до конца рабочей смены; счётчик нарушений за смену, неделю и месяц. / **New notices** 1 hour before the end of driving for the shift and of the working shift; violation counter per shift, week and month.
+> - Исправлено: после включения тахографа смена начиналась сразу — теперь с первой минуты вождения. / Fixed: after switching the tachograph on the shift started at once, now it starts with the first minute of driving.
+> - **Клавиша тахографа изменена с Alt+F9 на Ctrl+Shift+F9.** Открытое окно закрывает другое. / **The tachograph key changed from Alt+F9 to Ctrl+Shift+F9.** Opening one window closes another.
 >
-> **Клавиши / Keys:** **Shift+F9** — большое окно / main window; **F9** — мини-окно тахографа / mini tachograph window; **Alt+F9** — тахограф (HOS) вкл/выкл / tachograph (HOS) on/off.
+> **Клавиши / Keys:** **Shift+F9** — большое окно / main window; **F9** — мини-окно / mini window; **Ctrl+Shift+F9** — тахограф (HOS) вкл/выкл (при включении обнуляется) / tachograph (HOS) on/off (resets when switched on); **Shift+Alt+F9** — инструкция / guide.
+>
+> **Мои моды в Steam / My mods on Steam:** [Euro Truck Simulator 2](https://steamcommunity.com/sharedfiles/filedetails/?id=3824174228) · [American Truck Simulator](https://steamcommunity.com/sharedfiles/filedetails/?id=3826454951)
 
 ---
 
@@ -34,9 +49,15 @@ One key (**Shift+F9**) opens a window over the game: a calendar with a real date
 
 **Мини-окно тахографа (клавиша F9) / Mini tachograph window (F9)** — слева вверху экрана, в стиле тахографа. / Top-left corner of the screen, tachograph style.
 
-| ETS2, русский | ATS, English |
+| ETS2, русский | ETS2, English | ATS, English |
+|---|---|---|
+| ![mini ru](docs/ets2_ru_mini.png) | ![mini en](docs/ets2_en_mini.png) | ![mini ats](docs/ats_en_mini.png) |
+
+**Инструкция (Shift+Alt+F9) / Guide (Shift+Alt+F9)**
+
+| Русский | English |
 |---|---|
-| ![mini ru](docs/ets2_ru_mini.png) | ![mini en](docs/ats_en_mini.png) |
+| ![guide ru](docs/ets2_ru_help.png) | ![guide en](docs/ets2_en_help.png) |
 
 ---
 ## Что умеет / Features
@@ -50,6 +71,9 @@ One key (**Shift+F9**) opens a window over the game: a calendar with a real date
 | Путевой журнал, расход топлива / Trip log, fuel | ✔ | ✔ (мили, галлоны) |
 | ТО по пробегу / Maintenance by mileage | ✔ | ✔ |
 | Мини-окно тахографа (F9) / Mini tachograph window (F9) | ✔ | ✔ |
+| Инструкция на экране (Shift+Alt+F9) / On-screen guide | ✔ | ✔ |
+| Журнал: прибыль, расходы, остаток / Log: profit, expenses, balance | ✔ | ✔ |
+| Синхронизация ПК ↔ Steam Deck / PC ↔ Steam Deck sync | ✔ | ✔ |
 | Счётчик нарушений за смену, неделю, месяц / Violation counter: shift, week, month | ✔ | ✔ |
 | Сообщения на экране (за 60, 30 и 15 минут) / On-screen notices (60, 30 and 15 min) | ✔ | ✔ |
 
@@ -75,7 +99,7 @@ One key (**Shift+F9**) opens a window over the game: a calendar with a real date
 | Ежедневный отдых / Daily rest | 11 ч (или 3 + 9), сокращённый 9 ч — не более 3 раз между еженедельными отдыхами |
 | Еженедельный отдых / Weekly rest | 45 ч или сокращённый 24 ч (после сокращённого — обязательно 45 ч); начать не позже чем через 6 × 24 ч |
 
-**Выключить тахограф** (в ATS — логбук HOS) можно кнопкой **Alt+F9**: счёт и сообщения отключаются, при включении счёт начинается заново; состояние запоминается, клавишу можно поменять в `DriverDesk.ini` (`tachograph_key`). В окне — полосы с остатком времени и подсказки «начать отдых до …». Если прошлый еженедельный отдых был **сокращённым (24 ч)**, плагин пишет «следующий — обязательно полный 45 ч», во время отдыха показывает, **сколько осталось до 45 часов**, а если игрок снова отдохнёт меньше 45 часов, выводит красное предупреждение. **Компенсация:** недобранное до 45 ч время нужно компенсировать **не позднее конца третьей недели** после недели сокращённого отдыха. Плагин считает долг, показывает «осталось H:MM до <срок>» (оранжевым, красным — если срок вышел) и зачитывает излишек отдыха: сверх 45 ч у еженедельного или сверх 11 ч у ежедневного отдыха (компенсацию можно присоединить к любому отдыху от 9 ч). На экране появляются сообщения: за 30 минут до перерыва, при превышении 4:30, за 1 час до конца окна смены, за 15 минут до конца дневной нормы, при превышении нормы, **за 1 час до еженедельного отдыха** (если прошлый был сокращённым — «обязательно 45 часов», иначе «можно 24 или 45 часов»; при долге по компенсации дописывается, сколько осталось), **за 1 час до лимита 56 часов в неделю и 90 часов за две недели** и когда пора на еженедельный отдых. В ATS (HOS) перерыв — за 30 минут, 11 часов вождения и окно 14 часов — за 1 час.
+**Выключить тахограф** (в ATS — логбук HOS) можно кнопкой **Ctrl+Shift+F9**: счёт и сообщения отключаются, при включении счёт начинается заново; состояние запоминается, клавишу можно поменять в `DriverDesk.ini` (`tachograph_key`). В окне — полосы с остатком времени и подсказки «начать отдых до …». Если прошлый еженедельный отдых был **сокращённым (24 ч)**, плагин пишет «следующий — обязательно полный 45 ч», во время отдыха показывает, **сколько осталось до 45 часов**, а если игрок снова отдохнёт меньше 45 часов, выводит красное предупреждение. **Компенсация:** недобранное до 45 ч время нужно компенсировать **не позднее конца третьей недели** после недели сокращённого отдыха. Плагин считает долг, показывает «осталось H:MM до <срок>» (оранжевым, красным — если срок вышел) и зачитывает излишек отдыха: сверх 45 ч у еженедельного или сверх 11 ч у ежедневного отдыха (компенсацию можно присоединить к любому отдыху от 9 ч). На экране появляются сообщения: за 30 минут до перерыва, при превышении 4:30, за 1 час до конца окна смены, за 15 минут до конца дневной нормы, при превышении нормы, **за 1 час до еженедельного отдыха** (если прошлый был сокращённым — «обязательно 45 часов», иначе «можно 24 или 45 часов»; при долге по компенсации дописывается, сколько осталось), **за 1 час до лимита 56 часов в неделю и 90 часов за две недели** и когда пора на еженедельный отдых. В ATS (HOS) перерыв — за 30 минут, 11 часов вождения и окно 14 часов — за 1 час.
 
 **Версия 1.1:** новые сообщения о перерыве, окне смены, еженедельном отдыхе и лимитах 56/90 часов (см. выше).
 
@@ -88,9 +112,9 @@ One key (**Shift+F9**) opens a window over the game: a calendar with a real date
 - **До перерыва** — ETS2 до конца 4:30 вождения, ATS до конца 8 ч без перерыва;
 - **До недельного отдыха** — ETS2: сколько осталось до конца 144 часов после прошлого еженедельного отдыха; ATS: сколько осталось из 70 часов за 8 дней (потом нужен отдых 34 часа).
 
-Цифры янтарные, **оранжевые** при малом остатке (до конца смены и недельного отдыха — меньше часа, до перерыва — меньше 30 минут), **красные со знаком «−»**, если время вышло. Справа вверху — «в пути» или «отдых H:MM»; если тахограф выключен (Alt+F9) — «выключен». Подсказка про клавишу F9 есть и в большом окне, внизу.
+**С версии 1.3** строк четыре: до перерыва, вождение за смену (с жёлтым запасом «+1:00», «10-й час»), до конца смены (с запасом «+2:00 до 15 ч») и до недельного отдыха. Зелёные цифры — всё в норме, жёлтые — идёт запас (большие цифры стоят «0:00», отсчитывается запас), **оранжевые** — мало времени до перерыва или недельного отдыха, **красные со знаком «−»** — лимит превышен. Справа вверху мелко — «отдых 0:20 / 0:45» (сколько отдыха набрано и сколько нужно). Справа вверху — «в пути» или «отдых H:MM»; если тахограф выключен (Ctrl+Shift+F9) — «выключен». Подсказка про клавишу F9 есть и в большом окне, внизу.
 
-A small tachograph-style window in the **top-left corner** of the screen (dark panel, amber digits), opened and closed with **F9** (no modifiers; change the `mini_window` line in `DriverDesk.ini`). It shows three times: **time to the end of the shift** (shift window: 13/15 h in ETS2, 14 h in ATS), **time to the break** (end of 4:30 of driving in ETS2, 8 h without a break in ATS) and **time to the weekly rest** (ETS2: what is left of the 144 h after the previous weekly rest; ATS: what is left of the 70 h in 8 days, after which a 34 h restart is needed). Digits turn orange when little time is left (under 1 h for the shift and the weekly rest, under 30 min for the break) and red with a minus sign when the time is over. The top-right shows "driving" or "rest H:MM", or "off" when the tachograph is switched off (Alt+F9).
+A small tachograph-style window in the **top-left corner** of the screen (dark panel, amber digits), opened and closed with **F9** (no modifiers; change the `mini_window` line in `DriverDesk.ini`). It shows three times: **time to the end of the shift** (shift window: 13/15 h in ETS2, 14 h in ATS), **time to the break** (end of 4:30 of driving in ETS2, 8 h without a break in ATS) and **time to the weekly rest** (ETS2: what is left of the 144 h after the previous weekly rest; ATS: what is left of the 70 h in 8 days, after which a 34 h restart is needed). Digits turn orange when little time is left (under 1 h for the shift and the weekly rest, under 30 min for the break) and red with a minus sign when the time is over. The top-right shows "driving" or "rest H:MM", or "off" when the tachograph is switched off (Ctrl+Shift+F9). **Since 1.3** it has four rows: break, driving this shift (with an amber reserve "+1:00", "10th hour"), shift end (with a "+2:00 to 15 h" reserve) and weekly rest. Green = normal, amber = a reserve is being used, orange = little time left, red with a minus = limit exceeded.
 
 ### Нарушения режима труда и отдыха / Driving and rest time violations
 
@@ -98,9 +122,9 @@ A small tachograph-style window in the **top-left corner** of the screen (dark p
 - **ETS2:** больше 4:30 без перерыва, превышение дневного вождения, выход за окно смены, больше 56 ч за неделю, больше 90 ч за две недели, еженедельный отдых не начат за 144 часа, снова сокращённый еженедельный отдых подряд, просрочена компенсация.
 - **ATS:** больше 8 часов без перерыва, больше 11 часов вождения, выход за окно 14 часов, превышение цикла 70 часов.
 
-Счётчик смены обнуляется новым ежедневным отдыхом (в ATS — отдыхом 10 часов), недельный — со сменой недели, месячный — со сменой месяца в календаре игры. Данные хранятся по профилям в `DriverDesk_data.ini`; при включении тахографа кнопкой Alt+F9 счётчики обнуляются.
+Счётчик смены обнуляется новым ежедневным отдыхом (в ATS — отдыхом 10 часов), недельный — со сменой недели, месячный — со сменой месяца в календаре игры. Данные хранятся по профилям в `DriverDesk_data.ini`; при включении тахографа кнопкой Ctrl+Shift+F9 счётчики обнуляются.
 
-Under the tachograph readings (under the HOS logbook in ATS) the main window shows three counters: violations **per shift, per week and per month** (red when above zero). Each exceeded limit is counted **once per episode**, and only while driving. ETS2: more than 4:30 without a break, the daily driving limit, the shift window, 56 h per week, 90 h per two weeks, the weekly rest not started within 144 h, a reduced weekly rest twice in a row, a missed compensation deadline. ATS: more than 8 h without a break, more than 11 h of driving, the 14 h window, the 70 h cycle. The shift counter resets with a new daily rest (10 h off duty in ATS), the weekly one when the week changes, the monthly one when the calendar month changes. The data is stored per profile in `DriverDesk_data.ini`; switching the tachograph on with Alt+F9 resets the counters.
+Under the tachograph readings (under the HOS logbook in ATS) the main window shows three counters: violations **per shift, per week and per month** (red when above zero). Each exceeded limit is counted **once per episode**, and only while driving. ETS2: more than 4:30 without a break, the daily driving limit, the shift window, 56 h per week, 90 h per two weeks, the weekly rest not started within 144 h, a reduced weekly rest twice in a row, a missed compensation deadline. ATS: more than 8 h without a break, more than 11 h of driving, the 14 h window, the 70 h cycle. The shift counter resets with a new daily rest (10 h off duty in ATS), the weekly one when the week changes, the monthly one when the calendar month changes. The data is stored per profile in `DriverDesk_data.ini`; switching the tachograph on with Ctrl+Shift+F9 resets the counters.
 
 ## Логбук HOS (ATS) / HOS logbook (ATS)
 
@@ -145,9 +169,9 @@ The US counterpart of the tachograph (FMCSA rules for property-carrying drivers)
 
 ## Совет: вместе с плагином на ходьбу / Tip: use it together with a walking plugin
 
-**RU.** Для более реалистичной и удобной игры советую ставить DriverDesk вместе с плагином на ходьбу **TM Real Walk** (автор Izuan Bakar, TM Modding Studio; сторонний платный плагин, к DriverDesk отношения не имеет). По описанию автора, в нём есть **сон в любом месте**: режим отдыха в кабине (по умолчанию Shift+R), и можно спать на любой парковке. Поэтому **перерывы и еженедельные отдыхи можно делать там, где вам удобно**, а DriverDesk при этом считает время тахографа и подсказывает, когда пора остановиться и сколько ещё нужно отдохнуть. Плагины работают независимо и не мешают друг другу: клавиши DriverDesk — Shift+F9, F9 и Alt+F9, у TM Real Walk — F8, F10 и их сочетания.
+**RU.** Для более реалистичной и удобной игры советую ставить DriverDesk вместе с плагином на ходьбу **TM Real Walk** (автор Izuan Bakar, TM Modding Studio; сторонний платный плагин, к DriverDesk отношения не имеет). По описанию автора, в нём есть **сон в любом месте**: режим отдыха в кабине (по умолчанию Shift+R), и можно спать на любой парковке. Поэтому **перерывы и еженедельные отдыхи можно делать там, где вам удобно**, а DriverDesk при этом считает время тахографа и подсказывает, когда пора остановиться и сколько ещё нужно отдохнуть. Плагины работают независимо и не мешают друг другу: клавиши DriverDesk — Shift+F9, F9, Ctrl+Shift+F9 и Shift+Alt+F9, у TM Real Walk — F8, F10 и их сочетания.
 
-**EN.** For a more realistic and more convenient game I recommend using DriverDesk together with the walking plugin **TM Real Walk** (by Izuan Bakar, TM Modding Studio; a third-party paid plugin, not related to DriverDesk). According to its author it includes **sleeping anywhere**: a rest mode in the cab (Shift+R by default) that lets you sleep in any parking spot. So you can take **breaks and weekly rests wherever it suits you**, while DriverDesk tracks the tachograph time and tells you when to stop and how much rest is still needed. The two plugins are independent and do not conflict: DriverDesk uses Shift+F9, F9 and Alt+F9, TM Real Walk uses F8, F10 and their combinations.
+**EN.** For a more realistic and more convenient game I recommend using DriverDesk together with the walking plugin **TM Real Walk** (by Izuan Bakar, TM Modding Studio; a third-party paid plugin, not related to DriverDesk). According to its author it includes **sleeping anywhere**: a rest mode in the cab (Shift+R by default) that lets you sleep in any parking spot. So you can take **breaks and weekly rests wherever it suits you**, while DriverDesk tracks the tachograph time and tells you when to stop and how much rest is still needed. The two plugins are independent and do not conflict: DriverDesk uses Shift+F9, F9, Ctrl+Shift+F9 and Shift+Alt+F9, TM Real Walk uses F8, F10 and their combinations.
 
 ## Установка / Installation
 
@@ -172,7 +196,11 @@ The US counterpart of the tachograph (FMCSA rules for property-carrying drivers)
 
 ## Настройки / Settings (`DriverDesk.ini`)
 
-Клавиши (`open`, `mini_window`, `tachograph_key`), размер и положение окна, поправка времени, дата начала для нового профиля — в файле каждая строка с пояснением. / Keys (`open`, `mini_window`, `tachograph_key`), window size and position, time shift, start date for a new profile — every line is commented.
+Клавиши (`open`, `mini_window`, `tachograph_key`, `help_window`), вид мини-окна (`mini_style`), цена топлива (`fuel_price`), размер и положение окна, поправка времени, дата начала для нового профиля — в файле каждая строка с пояснением. / Keys (`open`, `mini_window`, `tachograph_key`, `help_window`), mini window style (`mini_style`), fuel price (`fuel_price`), window size and position, time shift, start date for a new profile — every line is commented.
+
+## Связь с автором / Contact
+
+Сообщения об ошибках и предложения — в разделе [Issues](https://github.com/aleksandrstaryi/driverdesk/issues) этого репозитория. / Bug reports and suggestions: please use [Issues](https://github.com/aleksandrstaryi/driverdesk/issues) in this repository.
 
 ## Лицензия / License
 
