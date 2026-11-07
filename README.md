@@ -143,6 +143,12 @@ The US counterpart of the tachograph (FMCSA rules for property-carrying drivers)
 - **Журнал:** каждый рейс — груз, откуда и куда, расстояние, доход, штрафы, платные дороги и паромы, расход топлива (л/100 км или миль/галлон) за рейс и за месяц, порожний пробег. В ATS — мили и галлоны США.
 - **ТО по пробегу:** масло и фильтры, топливный и воздушный фильтры, тормоза, масло КПП и мостов, годовой техосмотр (в ETS2 ещё поверка тахографа). Счётчик сбрасывается, когда вы ремонтируете износ детали в сервисе.
 
+## Совет: вместе с плагином на ходьбу / Tip: use it together with a walking plugin
+
+**RU.** Для более реалистичной и удобной игры советую ставить DriverDesk вместе с плагином на ходьбу **TM Real Walk** (автор Izuan Bakar, TM Modding Studio; сторонний платный плагин, к DriverDesk отношения не имеет). По описанию автора, в нём есть **сон в любом месте**: режим отдыха в кабине (по умолчанию Shift+R), и можно спать на любой парковке. Поэтому **перерывы и еженедельные отдыхи можно делать там, где вам удобно**, а DriverDesk при этом считает время тахографа и подсказывает, когда пора остановиться и сколько ещё нужно отдохнуть. Плагины работают независимо и не мешают друг другу: клавиши DriverDesk — Shift+F9, F9 и Alt+F9, у TM Real Walk — F8, F10 и их сочетания.
+
+**EN.** For a more realistic and more convenient game I recommend using DriverDesk together with the walking plugin **TM Real Walk** (by Izuan Bakar, TM Modding Studio; a third-party paid plugin, not related to DriverDesk). According to its author it includes **sleeping anywhere**: a rest mode in the cab (Shift+R by default) that lets you sleep in any parking spot. So you can take **breaks and weekly rests wherever it suits you**, while DriverDesk tracks the tachograph time and tells you when to stop and how much rest is still needed. The two plugins are independent and do not conflict: DriverDesk uses Shift+F9, F9 and Alt+F9, TM Real Walk uses F8, F10 and their combinations.
+
 ## Установка / Installation
 
 1. Скопируйте `DriverDesk.dll` в папку / Copy `DriverDesk.dll` to:
