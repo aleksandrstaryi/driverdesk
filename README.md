@@ -206,7 +206,7 @@ The US counterpart of the tachograph (FMCSA rules for property-carrying drivers)
 
 ## Связь с автором / Contact
 
-Сообщения об ошибках и предложения — в разделе [Issues](https://github.com/aleksandrstaryi/driverdesk/issues) этого репозитория. / Bug reports and suggestions: please use [Issues](https://github.com/aleksandrstaryi/driverdesk/issues) in this repository.
+Сообщения об ошибках и предложения — в разделе [Issues](https://github.com/aleksandrstaryi/driverdesk/issues) этого репозитория или личным сообщением в [Steam](https://steamcommunity.com/id/staryyi/). / Bug reports and suggestions: please use [Issues](https://github.com/aleksandrstaryi/driverdesk/issues) in this repository or send me a message on [Steam](https://steamcommunity.com/id/staryyi/).
 
 ## Лицензия / License
 
