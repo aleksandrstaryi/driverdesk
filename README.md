@@ -11,8 +11,12 @@
 A single-player plugin for **Euro Truck Simulator 2** and **American Truck Simulator** (Windows; Steam Deck through Proton).
 One key (**Shift+F9**) opens a window over the game: a calendar with a real date and holidays, a tachograph (ETS2) or an HOS logbook (ATS), truck driving bans in Europe, a trip log with profit and expenses, and maintenance. **F9** opens a small tachograph window, **Shift+Alt+F9** a rules guide.
 
-> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.3.
-> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.3.
+> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.3.1.
+> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.3.1.
+>
+> **Что нового в 1.3.1 / New in 1.3.1:**
+> - 144 часа до недельного отдыха не идут, пока после включения или обнуления тахографа грузовик ни разу не поехал. / The 144 h weekly clock does not run until the truck first moves after the tachograph is turned on or reset.
+> - Всплывающие сообщения держатся 3,5 секунды вместо 20. / Notices stay on screen for 3.5 seconds instead of 20.
 >
 > **Что нового в 1.3 / New in 1.3:**
 > - **Мини-окно (F9)** теперь с четырьмя строками: до перерыва, вождение за смену, до конца смены, до недельного отдыха. Жёлтый запас («+1:00 — 10-й час», «+2:00 до 15 ч») показывается отдельно; сверху справа мелко — сколько отдыха уже набрано. / **Mini window (F9)** now has four rows: time to the break, driving this shift, shift end, weekly rest. The amber reserve ("+1:00 — 10th hour", "+2:00 to 15 h") is shown separately; the top right shows how much rest you have already taken.
