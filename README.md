@@ -11,8 +11,14 @@
 A single-player plugin for **Euro Truck Simulator 2** and **American Truck Simulator** (Windows; Steam Deck through Proton).
 One key (**Shift+F9**) opens a window over the game: a calendar with a real date and holidays, a tachograph (ETS2) or an HOS logbook (ATS), truck driving bans in Europe, a trip log with profit and expenses, and maintenance. **F9** opens a small tachograph window, **Shift+Alt+F9** a rules guide.
 
-> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.3.2.
-> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.3.2.
+> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.3.5.
+> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.3.5.
+>
+> **Что нового в 1.3.5 / New in 1.3.5:**
+> - «До перерыва» больше не показывает времени, чем осталось вождения и рабочей смены: сначала до 9 и 13 часов, затем жёлтым остаток запаса (10-й час, смена до 15 часов). / "Until break" no longer shows more time than is left to drive or left in the working shift: first up to 9 and 13 hours, then the remaining reserve in yellow (10th hour, shift up to 15 hours).
+>
+> **Что нового в 1.3.3 / New in 1.3.3:**
+> - В исключения из запретов движения добавлены 13 рефгрузов моего мода экономики. Без этого мода плагин работает как раньше. / 13 reefer cargoes from my economy mod are now exempt from truck bans. Without that mod the plugin works as before.
 >
 > **Что нового в 1.3.2 / New in 1.3.2:**
 > - Исправлено: не считались время до перерыва 45 минут, вождение за смену и за неделю. / Fixed: time to the 45-minute break, driving per shift and per week were not counting.
