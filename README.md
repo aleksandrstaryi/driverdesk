@@ -11,10 +11,11 @@
 A single-player plugin for **Euro Truck Simulator 2** and **American Truck Simulator** (Windows; Steam Deck through Proton).
 One key (**Shift+F9**) opens a window over the game: a calendar with a real date and holidays, a tachograph (ETS2) or an HOS logbook (ATS), truck driving bans in Europe, a trip log with profit and expenses, and maintenance. **F9** opens a small tachograph window, **Shift+Alt+F9** a rules guide.
 
-> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.3.1.
-> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.3.1.
+> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.3.2.
+> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.3.2.
 >
-> **Что нового в 1.3.1 / New in 1.3.1:**
+> **Что нового в 1.3.2 / New in 1.3.2:**
+> - Исправлено: не считались время до перерыва 45 минут, вождение за смену и за неделю. / Fixed: time to the 45-minute break, driving per shift and per week were not counting.
 > - 144 часа до недельного отдыха не идут, пока после включения или обнуления тахографа грузовик ни разу не поехал. / The 144 h weekly clock does not run until the truck first moves after the tachograph is turned on or reset.
 > - Всплывающие сообщения держатся 3,5 секунды вместо 20. / Notices stay on screen for 3.5 seconds instead of 20.
 >
