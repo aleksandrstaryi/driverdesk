@@ -11,8 +11,12 @@
 A single-player plugin for **Euro Truck Simulator 2** and **American Truck Simulator** (Windows; Steam Deck through Proton).
 One key (**Shift+F9**) opens a window over the game: a calendar with a real date and holidays, a tachograph (ETS2) or an HOS logbook (ATS), truck driving bans in Europe, a trip log with profit and expenses, and maintenance. **F9** opens a small tachograph window, **Shift+Alt+F9** a rules guide.
 
-> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.3.8.
-> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.3.8.
+> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.3.9.
+> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.3.9.
+>
+> **Что нового в 1.3.9 / New in 1.3.9:**
+> - **Исправлена ошибка в мини-окне тахографа (ETS2):** если до лимита за две недели (90 ч) оставалось меньше, чем до лимита за неделю (56 ч), окно всё равно показывало 56 ч за неделю, 9 ч вождения за смену и 4:30 до перерыва. Теперь «Неделя», «Вождение за смену» (и 10-й час) и «До перерыва» не больше реального остатка по неделе и по двум неделям. / **Fixed a bug in the small tachograph window (ETS2):** when less was left of the two-week limit (90 h) than of the weekly limit (56 h), the window still showed 56 h per week, 9 h of driving per shift and 4:30 until the break. Now "Week", "Driving this shift" (and the 10th hour) and "Until break" never show more than what is really left for the week and for the two weeks.
+> - **Мини-окно (F9) в виде прибора тахографа:** корпус, светлый ЖК-экран, значок режима (руль, кровать, молоточки), цифры обычным крупным шрифтом. Прежний вид — `mini_look = classic` в `DriverDesk.ini`. / **The small window (F9) looks like a tachograph unit:** a case, a light LCD screen, a mode icon (steering wheel, bed, hammers), digits in a plain large font. The old look is `mini_look = classic` in `DriverDesk.ini`.
 >
 > **Что нового в 1.3.8 / New in 1.3.8:**
 > - **Считается только грузовик.** На легковой машине (DLC Ford в ATS, моды) и на автобусе (DLC автобусов ETS2) вождение, километры и топливо не считаются, а время идёт тахографу как отдых. Список марок и моделей — строка `non_truck` в `DriverDesk.ini`, туда можно дописать свой мод. / **Only the truck counts.** In a car (Ford DLC in ATS, mods) or a bus (ETS2 bus DLC) driving, distance and fuel are not counted and the time goes to the tachograph as rest. The list of brands and models is the `non_truck` line in `DriverDesk.ini`; add your own mod there.
