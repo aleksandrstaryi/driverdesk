@@ -11,8 +11,11 @@
 A single-player plugin for **Euro Truck Simulator 2** and **American Truck Simulator** (Windows; Steam Deck through Proton).
 One key (**Shift+F9**) opens a window over the game: a calendar with a real date and holidays, a tachograph (ETS2) or an HOS logbook (ATS), truck driving bans in Europe, a trip log with profit and expenses, and maintenance. **F9** opens a small tachograph window, **Shift+Alt+F9** a rules guide.
 
-> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.4.1.
-> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.4.1.
+> **Важно / Note.** Это не мод `.scs`, а плагин `.dll`: его нельзя выложить в Мастерскую Steam, только скачать отсюда. Версия 1.4.2.
+> This is a `.dll` plugin, not an `.scs` mod, so it is not on the Steam Workshop. Version 1.4.2.
+>
+> **Что нового в 1.4.2 / New in 1.4.2:**
+> - **Значок режима меняется сразу.** После нажатия **Insert** молоточки «Иная работа» появляются в окнах сразу, а после выключения (или когда грузовик просто остановился) сразу появляется кровать — раньше значок менялся только через игровую минуту. Сам счёт, как и раньше, начинается через одну игровую минуту (так устроена игра). / **The mode icon changes at once.** After pressing **Insert** the "Other work" hammers show in the windows right away, and after switching it off (or when the truck just stops) the bed shows right away; before, the icon changed only after a game minute. Counting still starts after one game minute (a game limitation).
 >
 > **Что нового в 1.4.1 / New in 1.4.1:**
 > - **Компенсация сокращённого недельного отдыха — только целиком, как по правилам ЕС** (регламент 561/2006, ст. 8.7). Раньше любой отдых сверх 11 ч (или сверх 45 ч) уменьшал долг по частям. Теперь долг снимается, только если компенсация взята одним куском вместе с отдыхом не меньше 9 ч: 11 ч + компенсация, 9 ч + компенсация (тогда этот отдых считается сокращённым) или 45 ч + компенсация. Если долгов несколько, первым гасится самый старый. Спасибо игроку за замечание. / **Compensation for a reduced weekly rest is counted only in one block, as EU rules require** (Regulation 561/2006, Art. 8(7)). Before, any rest longer than 11 h (or 45 h) reduced the debt bit by bit. Now the debt is cleared only when the compensation is taken in one piece attached to a rest of at least 9 h: 11 h + compensation, 9 h + compensation (that rest then counts as reduced) or 45 h + compensation. With several debts, the oldest is cleared first. Thanks to the player who reported it.
